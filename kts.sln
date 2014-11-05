@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "daemon", "daemon.vcxproj", "{04EC38E5-E4C0-48A6-AF48-59D99CF099BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "session", "session.vcxproj", "{8E7BC544-7B6F-4431-8575-014C912CFF61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shlex", "shlex.vcxproj", "{69451C6E-93F8-4CCC-93E0-F550D799DFFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04EC38E5-E4C0-48A6-AF48-59D99CF099BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04EC38E5-E4C0-48A6-AF48-59D99CF099BF}.Debug|Win32.Build.0 = Debug|Win32
+		{04EC38E5-E4C0-48A6-AF48-59D99CF099BF}.Release|Win32.ActiveCfg = Release|Win32
+		{04EC38E5-E4C0-48A6-AF48-59D99CF099BF}.Release|Win32.Build.0 = Release|Win32
+		{8E7BC544-7B6F-4431-8575-014C912CFF61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E7BC544-7B6F-4431-8575-014C912CFF61}.Debug|Win32.Build.0 = Debug|Win32
+		{8E7BC544-7B6F-4431-8575-014C912CFF61}.Release|Win32.ActiveCfg = Release|Win32
+		{8E7BC544-7B6F-4431-8575-014C912CFF61}.Release|Win32.Build.0 = Release|Win32
+		{69451C6E-93F8-4CCC-93E0-F550D799DFFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69451C6E-93F8-4CCC-93E0-F550D799DFFD}.Debug|Win32.Build.0 = Debug|Win32
+		{69451C6E-93F8-4CCC-93E0-F550D799DFFD}.Release|Win32.ActiveCfg = Release|Win32
+		{69451C6E-93F8-4CCC-93E0-F550D799DFFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

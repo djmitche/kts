@@ -1,0 +1,42 @@
+#include <windows.h>
+#include "..\shared\kts.h"
+
+MAINICON ICON LOADONCALL MOVEABLE DISCARDABLE daemon.ico
+
+/////////////////////////////////////////////////////////////////////// 
+// 
+// Version
+// 
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION KTS_VER_FILEVERSION
+ PRODUCTVERSION KTS_VER_PRODUCTVERSION
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "KpyM Telnet/SSH Server\r\nhttp://www.kpym.com\r\nFree open source Telnet/SSH server for Windows\0"
+            VALUE "CompanyName", "Kroum Grigorov\0"
+            VALUE "FileDescription", "KpyM Telnet/SSH Server - daemon.exe\0"
+			VALUE "InternalName", "daemon.exe\0"
+            VALUE "OriginalFilename", "daemon.exe\0"
+            VALUE "ProductName", "KpyM Telnet/SSH Server\0"
+            VALUE "ProductVersion", KTS_VER_VALUE_PRODUCTVERSION
+			VALUE "FileVersion", KTS_VER_VALUE_FILEVERSION
+			VALUE "LegalCopyright", KTS_VER_VALUE_LEGALCRIGHT
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
